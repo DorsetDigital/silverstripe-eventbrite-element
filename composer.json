@@ -1,0 +1,27 @@
+{
+ "name": "dorsetdigital/silverstripe-eventbrite",
+ "description": "Adds EventBrite integration",
+ "type": "silverstripe-vendormodule",
+ "homepage": "https://github.com/DorsetDigital/silverstripe-eventbrite",
+ "keywords": ["silverstripe", "elemental", "module"],
+ "authors": [
+  {
+   "name": "Tim Burt",
+   "email": "tim@dorset-digital.net"
+  }
+ ],
+ "require": {
+  "silverstripe/vendor-plugin": "^1.0",
+  "silverstripe/cms": "^4.0",
+  "dnadesign/silverstripe-elemental": "^3.0 || ^4.0"
+ },
+ "license": "BSD-3-Clause",
+ "autoload": {
+  "psr-4": {
+   "DorsetDigital\\SilverStripeEventBrite\\": "src/"
+  }
+ },
+ "extra": {
+ },
+ "minimum-stability": "dev"
+}
