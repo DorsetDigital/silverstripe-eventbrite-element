@@ -2,4 +2,5 @@
 Name: eventbrite
 ---
 
-
+DorsetDigital\SilverStripeEventBrite\Model:
+  personal_token: ""
